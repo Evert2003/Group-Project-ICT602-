@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/btnCreateTrip" android:text="Create New Trip" android:layout_width="match_parent" android:backgroundTint="#81E91EA9" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/edtSearch" android:hint="Search trip" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ListView android:id="@+id/listTrip" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

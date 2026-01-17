@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "79343838790",
+    "project_id": "newtripdiary",
+    "storage_bucket": "newtripdiary.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79343838790:android:8142a12817fb040c114c47",
+        "android_client_info": {
+          "package_name": "com.example.newtripdiary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa7dp3guT1PwxrQQJz5XpYn_7slSGCM84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

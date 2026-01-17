@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp" android:gravity="center_horizontal">
+        <!--  Title  -->
+        <TextView android:text="About Trip Diary App" android:textSize="22sp" android:textStyle="bold" android:layout_marginBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <!--  App Description  -->
+        <TextView android:text="Trip Diary is an application that allows users to document their trips, store memories, and keep their family members informed." android:textSize="16sp" android:gravity="center" android:layout_marginBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <!--  Image Placeholder 1  -->
+        <ImageView android:layout_width="155dp" android:layout_height="120dp" android:background="@android:color/darker_gray" android:src="@drawable/jon"/>
+        <TextView android:text="JONATHAN EVERT KEMBI" android:layout_marginBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <!--  Image Placeholder 2  -->
+        <ImageView android:layout_width="155dp" android:layout_height="120dp" android:background="@android:color/darker_gray" android:src="@drawable/syafiq"/>
+        <TextView android:text="MUHAMMAD SYAFIQ KHADRI" android:layout_marginBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <!--  Image Placeholder 3  -->
+        <ImageView android:layout_width="155dp" android:layout_height="120dp" android:background="@android:color/darker_gray" android:src="@drawable/amir"/>
+        <TextView android:text="PATRICIA RENNA ENTERI" android:layout_marginBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <!--  Image Placeholder 4  -->
+        <ImageView android:layout_width="155dp" android:layout_height="120dp" android:background="@android:color/darker_gray" android:src="@drawable/pat"/>
+        <TextView android:text="MUHAMMAD AMIR NASRRUDIN" android:layout_marginBottom="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <!--  Website Link  -->
+        <TextView android:id="@+id/tvWebsite" android:text="Visit Application Website" android:textColor="@android:color/holo_blue_dark" android:textStyle="bold" android:layout_marginTop="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

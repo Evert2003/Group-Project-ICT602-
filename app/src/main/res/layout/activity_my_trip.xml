@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <!--  TITLE  -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="My Trip" android:textColor="?attr/colorOnBackground" android:textSize="24sp" android:textStyle="bold"/>
+        <!--  TRIP NAME  -->
+        <EditText android:id="@+id/edtTripName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Trip Name" android:importantForAutofill="no" android:inputType="textPersonName" android:textColor="#000000"     android:textColorHint="?attr/colorOnSurfaceVariant"/>
+        <!--  LOCATION  -->
+        <TextView android:id="@+id/txtLocation" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="8dp" android:text="Location" android:textColor="?attr/colorOnBackground"/>
+        <!--  NOTE  -->
+        <EditText android:id="@+id/edtNote" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Notes" android:importantForAutofill="no" android:inputType="textMultiLine" android:minHeight="96dp" android:textColor="#000000" android:textColorHint="?attr/colorOnSurfaceVariant"/>
+        <!--  IMAGE BUTTON  -->
+        <Button android:id="@+id/btnPicture" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:backgroundTint="#81E91EA9" android:text="Picture"/>
+        <!--  GALLERY BUTTON  -->
+        <Button android:id="@+id/btnGallery" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:backgroundTint="#81E91EA9" android:text="Gallery"/>
+        <!--  QR BUTTON  -->
+        <Button android:id="@+id/btnQR" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:backgroundTint="#81E91EA9" android:text="Generate QR"/>
+        <!--  SAVE BUTTON  -->
+        <Button android:id="@+id/btnSave" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:backgroundTint="#81E91EA9" android:text="Save"/>
+        <!--  DELETE BUTTON  -->
+        <Button android:id="@+id/btnDeleteTrip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:backgroundTint="?attr/colorError" android:text="Delete Trip" android:textColor="?attr/colorOnError"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical" android:gravity="center_horizontal" android:padding="32dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <!--  Title Bar / Toolbar  -->
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="398dp" android:layout_height="?attr/actionBarSize" android:background="#81E91EA9" android:elevation="4dp" android:titleTextColor="@android:color/white"/>
+    <!--  Logo Placeholder  -->
+    <ImageView android:layout_width="122dp" android:layout_height="85dp" android:layout_gravity="center_horizontal" android:src="@drawable/logo123"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingBottom="16dp" android:text="Trip Diary App" android:textSize="24sp" android:textStyle="bold" tools:ignore="HardcodedText"/>
+    <!--  Buttons  -->
+    <Button android:id="@+id/btnReminder" android:layout_width="match_parent" android:layout_height="48dp" android:text="Set Reminder" android:backgroundTint="#81E91EA9" android:layout_marginBottom="16dp"/>
+    <Button android:id="@+id/btnTrips" android:layout_width="match_parent" android:layout_height="48dp" android:text="My Trips" android:backgroundTint="#81E91EA9" android:layout_marginBottom="16dp"/>
+    <Button android:id="@+id/btnMaps" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginBottom="16dp" android:backgroundTint="#81E91EA9" android:text="Places"/>
+    <Button android:id="@+id/btnQRScanner" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginBottom="16dp" android:backgroundTint="#81E91EA9" android:text="Scan QR"/>
+    <Button android:id="@+id/btnAbout" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="#81E91EA9" android:text="About"/>
+    <Button android:id="@+id/btnLogout" android:layout_width="172dp" android:layout_height="48dp" android:backgroundTint="@android:color/holo_red_light" android:text="Logout" android:textColor="@android:color/white"/>
+</LinearLayout>
